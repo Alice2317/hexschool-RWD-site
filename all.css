@@ -149,11 +149,6 @@ body {
   font-family: "Noto Sans TC", "Roboto", sans-serif;
 }
 
-:root {
-  --red: #AA0601;
-  --white: #FFFFFF;
-}
-
 .max-width {
   max-width: 1296px;
   padding: 0 36px;
@@ -166,11 +161,11 @@ body {
 }
 
 .bg-red {
-  background: var(--red);
+  background: #AA0601;
 }
 
 .bg-white {
-  background: var(--white);
+  background: #FFFFFF;
 }
 
 .headerBox {
@@ -197,7 +192,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  color: var(--white);
+  color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
   .headerBox .nav {
@@ -217,7 +212,7 @@ body {
     margin-right: initial;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid var(--white);
+    border: 1px solid #FFFFFF;
   }
 }
 .headerBox .nav .marginAuto {
@@ -228,7 +223,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  color: var(--white);
+  color: #FFFFFF;
   padding-top: 60px;
   padding-bottom: 32px;
 }
@@ -293,7 +288,7 @@ body {
 .footerBox-1 .fs-1 .material-symbols-outlined {
   font-size: 40px;
   margin-right: 20px;
-  color: var(--white);
+  color: #FFFFFF;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 @media screen and (max-width: 768px) {
@@ -308,7 +303,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 32px 0;
-  color: var(--white);
+  color: #FFFFFF;
 }
 @media screen and (max-width: 992px) {
   .footerBox-2 {
@@ -345,5 +340,5 @@ body {
 }
 
 .borderTop {
-  border-top: 1px solid var(--white);
+  border-top: 1px solid #FFFFFF;
 }

@@ -4,16 +4,8 @@ body {
 
 }
 
-:root {
-    --red: #AA0601;
-    --white: #FFFFFF;
-}
-
-*,
-*::after,
-*::before {
-    // outline: 0.5px solid yellow;
-}
+$red: #AA0601;
+$white: #FFFFFF;
 
 .max-width {
     max-width: 1296px;
@@ -26,9 +18,9 @@ body {
 }
 
 .bg-red {
-    background: var(--red);
+    background: $red;
 }
 
 .bg-white {
-    background: var(--white);
+    background: $white;
 }
